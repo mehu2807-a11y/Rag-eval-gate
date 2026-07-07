@@ -1,0 +1,13 @@
+services:
+  rag-eval:
+    build: .
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    volumes:
+      - ./data:/srv/data
+      - chroma_data:/srv/chroma_db
+
+volumes:
+  chroma_data:

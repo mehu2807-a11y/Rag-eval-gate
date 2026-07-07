@@ -1,0 +1,9 @@
+{
+  "_instructions": "Replace the example below with 10-50 real question/ground_truth pairs based on YOUR documents in data/. 'question' is what a user would ask; 'ground_truth' is the correct answer written by you (or extracted verbatim from the source docs). Delete this _instructions key before running eval -- it is ignored by run_eval.py but kept here so the schema is self-explanatory.",
+  "examples": [
+    {
+      "question": "REPLACE ME: a question answerable from your data/ documents",
+      "ground_truth": "REPLACE ME: the correct answer, based only on your documents"
+    }
+  ]
+}

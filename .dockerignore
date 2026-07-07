@@ -1,0 +1,9 @@
+venv/
+.venv/
+chroma_db/
+mlruns/
+.git/
+.github/
+__pycache__/
+*.pyc
+.env
