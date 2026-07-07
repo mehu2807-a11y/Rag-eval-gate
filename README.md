@@ -158,10 +158,3 @@ docker build -t rag-eval .
 docker run -p 8000:8000 --env-file .env rag-eval
 ```
 
-## What to write up for an interview
-
-- Which chunk sizes you tried and how faithfulness/context precision changed
-- Which embedding model you tried and its retrieval recall
-- One example where the eval suite caught a hallucination or a bad retrieval
-  before you would have noticed it manually
-- The CI run history showing at least one blocked/failed run and the fix
